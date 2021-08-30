@@ -1,0 +1,103 @@
+/* .login__page{
+    background: linear-gradient(
+        -135deg
+        ,#c850c0,#4158d0);
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.login__form{
+    margin-top:300px;
+    width: 200px;
+    background: red;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.wrap-login{
+    width: 200px;
+    border-radius: 10px;
+    padding: 57px 130px 33px 95px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:white
+} */
+
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .login-btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .error-msg{
+      padding: 10px 10px;
+      
+    color: #D8000C;
+  }
+
+  
+  .container {
+    padding: 16px;
+    margin-top: 350px;
+    margin-left: 40vw;
+    padding: 16px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 37%;
+    height: 19%;
+    
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+
+  .input_box{
+
+    width: 50%;
+  }
+
+  label{
+      padding: 40px;
+  }
+
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
